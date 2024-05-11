@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  background-color: gray;
+}
+
+h1 {
+  color: #fff;
+}
+
+input {
+  width: 400px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid blue;
+  height: 28px;
+  width: 396px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 48px;
+  height: 32px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.done {
+  background-color: green !important;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  height: 40px;
+  background-color: #4eb9cd;
+  border: 2px solid #006173;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.task span {
+  display: flex;
+  justify-content: left;
+  width: 85%;
+  margin-left: 12px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.task:hover {
+  cursor: pointer;
+  background-color: #006173;
+}
+
+.task i {
+  width: 15%;
+}
+
+.task i:hover {
+  cursor: pointer;
+}
